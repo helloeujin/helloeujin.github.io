@@ -1,0 +1,77 @@
+[
+  {
+    "date": "11.2022",
+    "school": "Data Journalism Korea Conference",
+    "desc": "Invited to panel discussion about ‘Data Journalism Reboot’"
+  },
+  {
+    "date": "10.2022",
+    "school": "Harvard University",
+    "desc": "Guest reviewer of data visualization projects for Collaborative Design Engineering Studio class in Design Engineering"
+  },
+  {
+    "date": "10.2022",
+    "school": "Ewha University",
+    "desc": "Lecturer teaching Visual Storytelling class"
+  },
+  {
+    "date": "03.2022",
+    "school": "University of Michigan",
+    "desc": "Guest lecturer in 'Visual Representation and Communication' class"
+  },
+  {
+    "date": "10.2021",
+    "school": "Harvard University",
+    "desc": "Guest reviewer of data visualization projects for Collaborative Design Engineering Studio class in Design Engineering"
+  },
+  {
+    "date": "04.2021",
+    "school": "Seoul University",
+    "desc": "Guest lecturer in ‘Visualization’ class under the Department of Communication"
+  },
+  {
+    "date": "10.2020",
+    "school": "Data Journalism Korea Conference",
+    "desc": "Speaker presenting Visual Journalism on Coronavirus"
+  },
+  {
+    "date": "10.2021",
+    "school": "New York University",
+    "desc": "Adjunct Professor teaching 'Visual Journalism' class"
+  },
+  {
+    "date": "02.2019",
+    "school": "Columbia University",
+    "desc": "Guest lecturer in 'Theory and Programming of Interactive Media' class at Teachers College"
+  },
+  {
+    "date": "11.2017",
+    "school": "Korea Institute of Science and Technology",
+    "desc": "Gave a seminar on ‘How to make data easy and interesting’"
+  },
+  {
+    "date": "10.2017",
+    "school": "New York University",
+    "desc": "Guest lecturer in 'Visual Language’ class"
+  },
+  {
+    "date": "04.2015",
+    "school": "MIT",
+    "desc": "‘Data visualization using D3’ workshop at MIT CodeKitchen"
+  },
+  {
+    "date": "11.2014",
+    "school": "New York University",
+    "desc": "Guest lecturer in ‘Frugal Innovation’ class"
+  },
+  {
+    "date": "06.2014",
+    "school": "World Science Hack Festival",
+    "desc": "Speaker at the Citizen Science Explorer Program"
+  },
+  {
+    "date": "04.2013",
+    "school": "MIT",
+    "desc": "Guest lecturer in ‘Water and Sanitation Infrastructure in Developing Countries’ class"
+  }
+]
