@@ -18,7 +18,7 @@ function App() {
     <>
       <div className="intro-text">
         Hello! I'm <span>Youjin Shin</span>.
-        <br />I am a data visualization practitioner and visual storyteller.
+        <br />I am a data visualization specialist and visual storyteller.
       </div>
 
       <Portfolio />
