@@ -1,108 +1,106 @@
 @import "./Consts.scss";
 
 .more {
-    max-width: $width-sm;
-    margin: 12px auto 12px auto;
-    padding: 20px;
+  max-width: $width-sm;
+  margin: 12px auto 12px auto;
+  padding: 20px;
 }
 
 .moreHed {
-    font-size: 34px;
-    cursor: pointer;
-   @extend .selection-disabled;
-    
-    @media (max-width: $width-sm) {
-        font-size: 32px;
-    }
-}    
+  font-size: 34px;
+  cursor: pointer;
+  @extend .selection-disabled;
+
+  @media (max-width: $width-sm) {
+    font-size: 32px;
+  }
+}
 .moreHed:hover {
-    color: blue;
-    .arrow {
-        // margin-left: 10px;
-        transition: all .1s;
-    }
+  color: blue;
+  .arrow {
+    // margin-left: 10px;
+    transition: all 0.1s;
+  }
 }
 .arrow {
-    transform: rotate(0deg);
-    display: inline-block;
-    transition: transform .3s;
+  transform: rotate(0deg);
+  display: inline-block;
+  transition: transform 0.3s;
 }
 .rotateArrow {
-    transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 .moreDesc {
-    font-size: 15px;
-    margin-top: 30px;
-    margin-bottom: 0px;
-    line-height: 1.4em;
+  font-size: 15px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  line-height: 1.4em;
 
-    height: 0px;
-    overflow: hidden;
-    vertical-align: top; 
-    transition: all .3s;
-    opacity: 0;
+  height: 0px;
+  overflow: hidden;
+  vertical-align: top;
+  transition: all 0.3s;
+  opacity: 0;
 
+  @media (max-width: $width-sm) {
+    font-size: 14px;
+  }
+
+  .tags {
+    font-size: 14px;
+    padding: 1px 8px;
+    border: 1px solid #333;
+    border-radius: 12px;
+    margin-right: 4px;
+    margin-left: 4px;
     @media (max-width: $width-sm) {
-        font-size: 14px;
+      font-size: 13px;
     }
-
-    .tags {
-        font-size: 14px;
-        padding: 1px 8px;
-        border: 1px solid #333;
-        border-radius: 12px;
-        margin-right: 4px;
-        margin-left: 4px;
-        @media (max-width: $width-sm) {
-            font-size: 13px;
-        }
-    }
-    .honor {
-        margin-bottom: 18px;
-    }
-    .date {
-        font-weight: bold;
-        font-size: 13px;
-        margin-right: 12px;
-    }
-    .story {
-        color: #aaa;
-    }
+  }
+  .honor {
+    margin-bottom: 18px;
+  }
+  .date {
+    font-weight: bold;
+    font-size: 13px;
+    margin-right: 12px;
+  }
+  .story {
+    color: #aaa;
+  }
 }
 
-
 .moreDescMore {
-    line-height: 1.76em;
+  line-height: 1.76em;
 }
 
 .showSkills {
-    height: 220px;
-    opacity: 1;
-    @media (max-width: $width-sm) {
-        height: 280px;
-    }
+  height: 220px;
+  opacity: 1;
+  @media (max-width: $width-sm) {
+    height: 280px;
+  }
 }
 
 .showHonors {
-    height: 1870px;
-    opacity: 1;
-    @media (max-width: $width-sm) {
-        height: 1880px;
-    }
-    @media (max-width: $width-xxs) {
-        height: 2300px;
-    }
+  height: 1870px;
+  opacity: 1;
+  @media (max-width: $width-sm) {
+    height: 1880px;
+  }
+  @media (max-width: $width-xxs) {
+    height: 2300px;
+  }
 }
 
-.showTeaching{
-    height: 950px;
-    opacity: 1;
-    @media (max-width: $width-sm) {
-        height: 990px;
-    }
-    @media (max-width: $width-xxs) {
-        height: 1230px;
-    }
+.showTeaching {
+  height: 1050px;
+  opacity: 1;
+  @media (max-width: $width-sm) {
+    height: 990px;
+  }
+  @media (max-width: $width-xxs) {
+    height: 1230px;
+  }
 }
-
