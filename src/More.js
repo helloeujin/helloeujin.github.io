@@ -41,6 +41,7 @@ const More = () => {
             <li>
               Data Visualization: <span className="tags">D3.js</span>
               <span className="tags">Three.js</span>
+              <span className="tags">deck.gl</span>
               <span className="tags">p5.js</span>
             </li>
             <li>
