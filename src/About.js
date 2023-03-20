@@ -12,8 +12,8 @@ const About = () => {
         >
           the Washington Post
         </a>{" "}
-        worked on a wide range of stories including coronavirus trackers and
-        created a color palette for graphics.
+        working on a wide range of stories including coronavirus trackers and
+        creating a color palette for graphics.
         <br />
         <br /> Before joining the Post, I worked as a multimedia editor at{" "}
         <a href="https://www.wsj.com/" target="_blank">
@@ -31,7 +31,7 @@ const About = () => {
         </a>{" "}
         at New York University. Prior to that, I studied Mechanical Engineering
         at Korea University and developed a road detection algorithm for a
-        surveilance robot.
+        surveillance robot.
         <br />
         <br />
         You can reach me by email at{" "}
