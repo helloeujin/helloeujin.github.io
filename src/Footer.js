@@ -20,6 +20,12 @@ const Footer = () => {
             Resume
           </a>
         </div>
+
+        <div className="social">
+          <a href="https://observablehq.com/@helloeujin" target="_blank">
+            Observable
+          </a>
+        </div>
       </div>
     </div>
   );
