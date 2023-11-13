@@ -35,7 +35,9 @@ const About = () => {
         <br />
         <br />
         You can reach me by email at{" "}
-        <span style={{ fontStyle: "italic" }}>meggonagul at gmail dot com</span>
+        <span style={{ fontStyle: "italic", color: "blue" }}>
+          meggonagul at gmail dot com
+        </span>
         .
       </div>
     </>
