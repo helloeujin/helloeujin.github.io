@@ -84,13 +84,22 @@
 }
 
 .showHonors {
-  height: 1870px;
+  height: 1910px;
   opacity: 1;
   @media (max-width: $width-sm) {
-    height: 1880px;
+    height: 1820px;
   }
-  @media (max-width: $width-xxs) {
-    height: 2300px;
+  @media (max-width: 420px) {
+    height: 1930px;
+  }
+  @media (max-width: 375px) {
+    height: 1960px;
+  }
+  @media (max-width: 360px) {
+    height: 2000px;
+  }
+  @media (max-width: 280px) {
+    height: 2500px;
   }
 }
 
@@ -98,7 +107,10 @@
   height: 1050px;
   opacity: 1;
   @media (max-width: $width-sm) {
-    height: 990px;
+    height: 1100px;
+  }
+  @media (max-width: 375px) {
+    height: 1200px;
   }
   @media (max-width: $width-xxs) {
     height: 1230px;
