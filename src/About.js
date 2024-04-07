@@ -4,8 +4,11 @@ const About = () => {
   return (
     <>
       <div className="about" id="about">
-        I design, code and write for creating data visualization and visual
-        storytelling. Until recently, I was a graphics reporter at{" "}
+        I design, code and write for creating data visualization at{" "}
+        <a href="https://visual-plot.com/" target="_blank">
+          VisualPlot
+        </a>
+        . Until recently, I was a graphics reporter at{" "}
         <a
           href="https://www.washingtonpost.com/people/youjin-shin/"
           target="_blank"
@@ -36,7 +39,7 @@ const About = () => {
         <br />
         You can reach me by email at{" "}
         <span style={{ fontStyle: "italic", color: "blue" }}>
-          meggonagul at gmail dot com
+          hello@visual-plot.com
         </span>
         .
       </div>
