@@ -43,6 +43,7 @@ const More = () => {
               <span className="tags">Three.js</span>
               <span className="tags">deck.gl</span>
               <span className="tags">p5.js</span>
+              <span className="tags">regl</span>
             </li>
             <li>
               Data Analysis: <span className="tags">Python</span>
