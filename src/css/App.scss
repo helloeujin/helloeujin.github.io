@@ -11,11 +11,14 @@ body {
 
 .intro-text {
   position: relative;
-  font-size: 54px;
+  font-size: 62px;
   font-weight: 300;
-  max-width: $pg-lg;
-  margin-top: 150px;
-  margin-bottom: 120px;
+  // max-width: $pg-lg;
+  max-width: 820px;
+  margin-top: 185px;
+  margin-bottom: 135px;
+  letter-spacing: -1px;
+  text-align: left;
   // background-color: red;
 
   margin-left: auto;
@@ -23,20 +26,20 @@ body {
   padding: 20px;
 
   span {
-    font-weight: 600;
+    // font-weight: 500;
   }
 
   @media (max-width: $width-lg) {
-    font-size: 50px;
+    font-size: 52px;
     margin-bottom: 110px;
   }
   @media (max-width: $width-md) {
-    font-size: 45px;
+    font-size: 46px;
     margin-top: 130px;
     margin-bottom: 100px;
   }
   @media (max-width: $width-sm) {
-    font-size: 36px;
+    font-size: 38px;
     margin-top: 100px;
     margin-bottom: 60px;
   }

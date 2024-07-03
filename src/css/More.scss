@@ -7,12 +7,13 @@
 }
 
 .moreHed {
-  font-size: 34px;
+  font-size: 36px;
+  letter-spacing: -0.3px;
   cursor: pointer;
   @extend .selection-disabled;
 
   @media (max-width: $width-sm) {
-    font-size: 32px;
+    font-size: 34px;
   }
 }
 .moreHed:hover {

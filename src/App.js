@@ -18,7 +18,7 @@ function App() {
     <>
       <div className="intro-text">
         Hello! I'm <span>Youjin Shin</span>.
-        <br />I design data at VisualPlot.
+        <br />I design data at VisualPlot ✨
       </div>
 
       <Portfolio />
