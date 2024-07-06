@@ -4,7 +4,7 @@ const About = () => {
   return (
     <>
       <div className="about" id="about">
-        I design, code and write for creating data visualization at{" "}
+        I design, code and write to create data visualizations at{" "}
         <a href="https://visual-plot.com/" target="_blank">
           VisualPlot
         </a>
@@ -13,20 +13,21 @@ const About = () => {
           href="https://www.washingtonpost.com/people/youjin-shin/"
           target="_blank"
         >
-          the Washington Post
-        </a>{" "}
-        working on a wide range of stories including coronavirus trackers and
-        creating a color palette for graphics.
+          The Washington Post
+        </a>
+        , where I worked on a wide range of stories, including developing
+        coronavirus trackers and creating a color palette for both company
+        branding and data visualization graphics.
         <br />
         <br /> Before joining the Post, I worked as a multimedia editor at{" "}
         <a href="https://www.wsj.com/" target="_blank">
-          the Wall Street Journal
+          The Wall Street Journal
         </a>{" "}
-        and a research fellow specializing in data visualization at{" "}
+        and as a research fellow specializing in data visualization at{" "}
         <a href="http://senseable.mit.edu/" target="_blank">
-          the MIT SENSEable city lab
-        </a>{" "}
-        working on various urban planning projects.
+          the MIT SENSEable City Lab
+        </a>
+        , where I worked on various urban planning projects.
         <br />
         <br />I graduated from{" "}
         <a href="http://itp.nyu.edu/itp/" target="_blank">
