@@ -4,7 +4,11 @@ const About = () => {
   return (
     <>
       <div className="about" id="about">
-        I design, code and write to create data visualizations at{" "}
+        I create data visualizations at{" "}
+        <a href="https://www.straitstimes.com/global" target="_blank">
+          The Straits Times
+        </a>{" "}
+        and run a studio called{" "}
         <a href="https://visual-plot.com/" target="_blank">
           VisualPlot
         </a>
@@ -17,7 +21,7 @@ const About = () => {
         </a>
         , where I worked on a wide range of stories, including developing
         coronavirus trackers and creating a color palette for both company
-        branding and data visualization graphics.
+        branding and data visualization.
         <br />
         <br /> Before joining the Post, I worked as a multimedia editor at{" "}
         <a href="https://www.wsj.com/" target="_blank">
