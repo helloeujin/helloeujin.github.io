@@ -37,6 +37,7 @@ const More = () => {
               <span className="tags">CSS</span>
               <span className="tags">Sass</span>{" "}
               <span className="tags">React</span>
+              <span className="tags">Svelte</span>
             </li>
             <li>
               Data Visualization: <span className="tags">D3.js</span>

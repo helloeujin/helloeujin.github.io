@@ -1,5 +1,12 @@
 [
   {
+    "hed": "Disappearing Butterflies",
+    "desc": "<ul><li>Visualizing butterflies under threat of extinction </li><li> Tools: Svelte, Threlte</li> </ul>",
+    "tag": "Data visualization",
+    "img": "butterflies_shell.jpg",
+    "url": "https://www.straitstimes.com/multimedia/graphics/2024/12/singapore-butterflies-climate-change/index.html"
+  },
+  {
     "hed": "Big data visualization",
     "desc": "<ul><li>Works of visualizing large amount of data </li><li> Tools: Regl, Three.js, D3.js, Deck.gl</li> </ul>",
     "tag": "Data visualization",
