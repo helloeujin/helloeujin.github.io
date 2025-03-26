@@ -1,5 +1,12 @@
 [
   {
+    "hed": "Drowning in plastic",
+    "desc": "<ul><li>Visualizing the journey of plastic in the ocean </li><li> Tools: Svelte, Threlte</li> </ul>",
+    "tag": "Data visualization",
+    "img": "plastics2.png",
+    "url": "https://www.straitstimes.com/multimedia/graphics/2024/11/microplastics-ocean-pollution/index.html"
+  },
+  {
     "hed": "Disappearing Butterflies",
     "desc": "<ul><li>Visualizing butterflies under threat of extinction </li><li> Tools: Svelte, Threlte</li> </ul>",
     "tag": "Data visualization",
