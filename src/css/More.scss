@@ -77,7 +77,7 @@
 }
 
 .showSkills {
-  height: 220px;
+  height: 250px;
   opacity: 1;
   @media (max-width: $width-sm) {
     height: 280px;
@@ -85,27 +85,27 @@
 }
 
 .showHonors {
-  height: 1910px;
+  height: 2300px;
   opacity: 1;
-  @media (max-width: $width-sm) {
-    height: 1820px;
-  }
-  @media (max-width: 420px) {
-    height: 1930px;
-  }
-  @media (max-width: 375px) {
-    height: 1960px;
-  }
-  @media (max-width: 360px) {
-    height: 2000px;
-  }
-  @media (max-width: 280px) {
-    height: 2500px;
-  }
+  // @media (max-width: $width-sm) {
+  //   height: 1820px;
+  // }
+  // @media (max-width: 420px) {
+  //   height: 1930px;
+  // }
+  // @media (max-width: 375px) {
+  //   height: 1960px;
+  // }
+  // @media (max-width: 360px) {
+  //   height: 2000px;
+  // }
+  // @media (max-width: 280px) {
+  //   height: 2500px;
+  // }
 }
 
 .showTeaching {
-  height: 1050px;
+  height: 1350px;
   opacity: 1;
   @media (max-width: $width-sm) {
     height: 1100px;

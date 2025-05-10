@@ -18,6 +18,8 @@ function App() {
     <>
       <div className="intro-text">
         Hello! I'm <span>Youjin Shin</span>.
+        {/* <br /> I design, code and write for data visualization ✨ */}
+        {/* <br /> I love data visualization ✨ */}
         <br />I design, code and write✨
       </div>
 
