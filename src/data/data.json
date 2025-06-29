@@ -1,5 +1,12 @@
 [
   {
+    "hed": "Why handwriting matters",
+    "desc": "<ul><li>Visualizing and analyzing handwriting styles in Singapore </li><li> Tools: Svelte, D3.js</li> </ul>",
+    "tag": "Data visualization",
+    "img": "handwriting.png",
+    "url": "https://www.straitstimes.com/multimedia/graphics/2025/06/why-handwriting-matters/index.html"
+  },
+  {
     "hed": "Drowning in plastic",
     "desc": "<ul><li>Visualizing the journey of plastic in the ocean </li><li> Tools: Svelte, Threlte</li> </ul>",
     "tag": "Data visualization",
