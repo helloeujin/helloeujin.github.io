@@ -25,8 +25,8 @@ const Footer = () => {
         </div>
 
         <div className="social">
-          <a href="https://litt.ly/visualplot" target="_blank">
-            Littly
+          <a href="https://www.instagram.com/youjinshin_" target="_blank">
+            Instagram
           </a>
         </div>
       </div>
