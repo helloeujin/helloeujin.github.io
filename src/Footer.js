@@ -18,14 +18,14 @@ const Footer = () => {
           </a>
         </div>
 
-        <div className="social">
+        {/* <div className="social">
           <a href="https://observablehq.com/@helloeujin" target="_blank">
             Observable
           </a>
-        </div>
+        </div> */}
 
         <div className="social">
-          <a href="https://www.instagram.com/youjinshin_" target="_blank">
+          <a href="https://www.instagram.com/youjin.info" target="_blank">
             Instagram
           </a>
         </div>
