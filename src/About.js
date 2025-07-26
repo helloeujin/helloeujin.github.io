@@ -5,7 +5,10 @@ const About = () => {
     <>
       <div className="about" id="about">
         I create data visualizations at{" "}
-        <a href="https://www.straitstimes.com/global" target="_blank">
+        <a
+          href="https://www.straitstimes.com/authors/youjin-shin"
+          target="_blank"
+        >
           The Straits Times
         </a>{" "}
         and run a studio called{" "}
