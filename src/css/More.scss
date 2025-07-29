@@ -1,7 +1,8 @@
 @import "./Consts.scss";
 
 .more {
-  max-width: $width-sm;
+  // max-width: $width-sm;
+  max-width: $pg-md;
   margin: 12px auto 12px auto;
   padding: 20px;
 }
@@ -85,7 +86,7 @@
 }
 
 .showHonors {
-  height: 2300px;
+  height: 2150px;
   opacity: 1;
   // @media (max-width: $width-sm) {
   //   height: 1820px;
@@ -105,7 +106,7 @@
 }
 
 .showTeaching {
-  height: 1350px;
+  height: 1260px;
   opacity: 1;
   @media (max-width: $width-sm) {
     height: 1100px;
