@@ -18,7 +18,7 @@ function App() {
   return (
     <>
       <div className="intro-text">
-        Hello! I'm <span class="name">Youjin Shin</span>
+        Hello! I'm <span class="name">Youjin Shin</span>.
         {/* <br /> I design, code and write for data visualization ✨ */}
         {/* <br /> I love data visualization ✨ */}
         <br /> I{" "}
@@ -28,20 +28,23 @@ function App() {
           strokeWidth="3.2"
           show={true}
           animationDuration="1200"
+          padding="130"
         >
           design and code
         </RoughNotation>{" "}
         with{" "}
-        <RoughNotation
-          type="circle"
-          color="rgba(0, 0, 255, .4)"
-          iterations="3"
-          strokeWidth="3.2"
-          show={true}
-          animationDuration="1200"
-        >
-          data
-        </RoughNotation>
+        <div class="intro-data">
+          <RoughNotation
+            type={"highlight"}
+            color="rgba(0, 0, 255, .48)"
+            // iterations="2"
+            strokeWidth="3.2"
+            show={true}
+            animationDuration="1200"
+          >
+            data
+          </RoughNotation>
+        </div>
       </div>
 
       <Portfolio />
