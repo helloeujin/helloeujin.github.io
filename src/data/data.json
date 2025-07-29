@@ -1,98 +1,98 @@
 [
   {
     "hed": "Why handwriting matters",
-    "desc": "<ul><li>Visualizing and analyzing handwriting styles in Singapore </li><li> Tools: Svelte, D3.js</li> </ul>",
+    "desc": "<ul><li>Visualizing and analyzing handwriting styles in Singapore </li><li> Tools: Svelte, D3.js</li> <li> <a href='https://str.sg/viz-handwriting' target='_blank'>Visit the link</a> </li> </ul>",
     "tag": "Data visualization",
     "img": "handwriting.png",
     "url": "https://www.straitstimes.com/multimedia/graphics/2025/06/why-handwriting-matters/index.html"
   },
   {
     "hed": "Drowning in plastic",
-    "desc": "<ul><li>Visualizing the journey of plastic in the ocean </li><li> Tools: Svelte, Threlte</li> </ul>",
+    "desc": "<ul><li>Visualizing the journey of plastic in the ocean </li><li> Tools: Svelte, Threlte</li> <li> <a href='https://str.sg/viz-microplastics-ocean' target='_blank'>Visit the link</a> </li></ul>",
     "tag": "Data visualization",
     "img": "plastics2.png",
     "url": "https://www.straitstimes.com/multimedia/graphics/2024/11/microplastics-ocean-pollution/index.html"
   },
   {
     "hed": "Disappearing Butterflies",
-    "desc": "<ul><li>Visualizing butterflies under threat of extinction </li><li> Tools: Svelte, Threlte</li> </ul>",
+    "desc": "<ul><li>Visualizing butterflies under threat of extinction </li><li> Tools: Svelte, Threlte</li> <li> <a href='https://str.sg/viz-butterflies' target='_blank'>Visit the link</a> </li> </ul>",
     "tag": "Data visualization",
     "img": "butterflies_shell.jpg",
     "url": "https://www.straitstimes.com/multimedia/graphics/2024/12/singapore-butterflies-climate-change/index.html"
   },
   {
     "hed": "Big data visualization",
-    "desc": "<ul><li>Works of visualizing large amount of data </li><li> Tools: Regl, Three.js, D3.js, Deck.gl</li> </ul>",
+    "desc": "<ul><li>Works of visualizing large amount of data </li><li> Tools: Regl, Three.js, D3.js, Deck.gl</li> <li> <a href='https://observablehq.com/collection/@helloeujin/big-data-visualization' target='_blank'>Visit the link</a> </li></ul>",
     "tag": "Data visualization",
     "img": "windviz.png",
     "url": "https://observablehq.com/collection/@helloeujin/big-data-visualization"
   },
   {
     "hed": "How does an autonomous car work? Not so great.",
-    "desc": "<ul><li>Responsibilities: Reporting, design and development </li><li> Tools: Javascript, Three.js, Figma</li> </ul>",
+    "desc": "<ul><li>Responsibilities: Reporting, design and development </li><li> Tools: Javascript, Three.js, Figma</li> <li> <a href='https://www.washingtonpost.com/graphics/2019/business/how-does-an-autonomous-car-work/' target='_blank'>Visit the link</a> </li></ul>",
     "tag": "Game",
     "img": "autocar.png",
     "url": "https://www.washingtonpost.com/graphics/2019/business/how-does-an-autonomous-car-work/"
   },
   {
     "hed": "How epidemics like covid-19 end (and how to end them faster)",
-    "desc": "<ul><li>Responsibilities: Reporting, design and development </li><li> Tools: Javascript, D3.js (simulation)</li> </ul>",
+    "desc": "<ul><li>Responsibilities: Reporting, design and development </li><li> Tools: Javascript, D3.js (simulation)</li> <li> <a href='https://www.washingtonpost.com/graphics/2020/health/coronavirus-how-epidemics-spread-and-end/' target='_blank'>Visit the link</a> </li></ul>",
     "tag": "Data visualization",
     "img": "simulation.jpeg",
     "url": "https://www.washingtonpost.com/graphics/2020/health/coronavirus-how-epidemics-spread-and-end/?itid=ap_youjinshin"
   },
   {
     "hed": "What Bloomberg’s half-billion dollars in campaign spending would cost you on your budget",
-    "desc": "<ul><li>Responsibilities: Design and development </li><li> Tools: Javascript, Figma</li> </ul>",
+    "desc": "<ul><li>Responsibilities: Design and development </li><li> Tools: Javascript, Figma</li> <li> <a href='https://www.washingtonpost.com/graphics/2020/politics/wealth-comparison/' target='_blank'>Visit the link</a> </li></ul>",
     "tag": "Game",
     "img": "billionaire.jpeg",
     "url": "https://www.washingtonpost.com/graphics/2020/politics/wealth-comparison/"
   },
   {
     "hed": "Why is K-pop so popular",
-    "desc": "<ul><li>Responsibilities: Reporting, design and development </li><li> Tools: React, Three.js, Youtube API, Spotify API, Figma</li> </ul>",
+    "desc": "<ul><li>Responsibilities: Reporting, design and development </li><li> Tools: React, Three.js, Youtube API, Spotify API, Figma</li> <li> <a href='https://www.washingtonpost.com/arts-entertainment/interactive/2021/kpop-bts-youtube-twitter-blackpink/' target='_blank'>Visit the link</a> </li> </ul>",
     "tag": "3D storytelling",
     "img": "kpop.jpeg",
     "url": "https://www.washingtonpost.com/arts-entertainment/interactive/2021/kpop-bts-youtube-twitter-blackpink/"
   },
   {
     "hed": "Coronavirus trackers",
-    "desc": "<ul><li>Responsibilities: Data analysis, design and development</li><li> Tools: D3.js, React</li> </ul>",
+    "desc": "<ul><li>Responsibilities: Data analysis, design and development</li><li> Tools: D3.js, React</li> <li> <a href='https://www.washingtonpost.com/graphics/2020/national/coronavirus-us-cases-deaths/?itid=sn_coronavirus_1/' target='_blank'>Visit the link</a> </li></ul>",
     "tag": "Data visualization",
     "img": "tracker.jpg",
     "url": "https://www.washingtonpost.com/graphics/2020/national/coronavirus-us-cases-deaths/?itid=sn_coronavirus_1/"
   },
   {
     "hed": "A mystery dinosaur in the nation’s basement",
-    "desc": "<ul><li>Responsibilities: Design and development </li><li> Tools: Javascript, Three.js</li> </ul>",
+    "desc": "<ul><li>Responsibilities: Design and development </li><li> Tools: Javascript, Three.js</li> <li> <a href='https://www.washingtonpost.com/graphics/2018/national/smithsonian-dinosaur-augmented-reality/' target='_blank'>Visit the link</a> </li></ul>",
     "tag": "3D storytelling",
     "img": "dino.png",
     "url": "https://www.washingtonpost.com/graphics/2018/national/smithsonian-dinosaur-augmented-reality/"
   },
   {
     "hed": "Playing for the ‘right reasons’",
-    "desc": "<ul><li>Responsibilities: Design and development </li><li> Tools: React, Canvas animation, Figma</li> </ul>",
+    "desc": "<ul><li>Responsibilities: Design and development </li><li> Tools: React, Canvas animation, Figma</li> <li> <a href='https://www.washingtonpost.com/graphics/2020/entertainment/the-bachelorette-show-game/' target='_blank'>Visit the link</a> </li> </ul>",
     "tag": "Game",
     "img": "game.gif",
     "url": "https://www.washingtonpost.com/graphics/2020/entertainment/the-bachelorette-show-game/"
   },
   {
     "hed": "Gridlock in the sky",
-    "desc": "<ul><li>Responsibilities: Data analysis, design and development </li><li> Tools: Javascript, Three.js</li> </ul>",
+    "desc": "<ul><li>Responsibilities: Data analysis, design and development </li><li> Tools: Javascript, Three.js</li><li> <a href='https://www.washingtonpost.com/graphics/2018/business/spacex-falcon-heavy-launch-faa-air-traffic/' target='_blank'>Visit the link</a> </li> </ul>",
     "tag": "Data visualization",
     "img": "sky.png",
     "url": "https://www.washingtonpost.com/graphics/2018/business/spacex-falcon-heavy-launch-faa-air-traffic/"
   },
   {
     "hed": "The many contradictions in Trump’s relationship with Russia",
-    "desc": "<ul><li>Responsibilities: Reporting, data collection, design and development </li><li> Tools: Javascript</li> </ul>",
+    "desc": "<ul><li>Responsibilities: Reporting, data collection, design and development </li><li> Tools: Javascript</li> <li> <a href='https://www.washingtonpost.com/graphics/2018/politics/trump-on-russia/' target='_blank'>Visit the link</a> </li></ul>",
     "tag": "Data storytelling",
     "img": "trump_promo.png",
     "url": "https://www.washingtonpost.com/graphics/2018/politics/trump-on-russia/"
   },
   {
     "hed": "How Las Vegas Police Scrambled to Find the Gunman",
-    "desc": "<ul><li>Responsibilities: Design and development </li><li> Tools: Javascript (audio)</li> </ul>",
+    "desc": "<ul><li>Responsibilities: Design and development </li><li> Tools: Javascript (audio)</li> <li> <a href='https://www.wsj.com/graphics/las-vegas-police-scramble-to-find-mandalay-bay-shooter/' target='_blank'>Visit the link</a> </li> </ul>",
     "tag": "Data storytelling",
     "img": "lasvegas.jpeg",
     "url": "https://www.wsj.com/graphics/las-vegas-police-scramble-to-find-mandalay-bay-shooter/"

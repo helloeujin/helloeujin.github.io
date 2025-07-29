@@ -46,14 +46,14 @@ body {
     font-size: 46px;
     margin-top: 130px;
     margin-bottom: 90px;
-    line-height: 1.56em;
+    line-height: 1.52em;
     // padding: 30px;
   }
   @media (max-width: $width-sm) {
     font-size: 36px;
     margin-top: 96px;
     margin-bottom: 50px;
-    padding: 32px;
+    padding: 28px;
   }
 
   @media (max-width: 390px) {
@@ -134,4 +134,8 @@ body {
 .intro-data {
   display: inline;
   color: white;
+}
+
+li a {
+  color: blue;
 }
