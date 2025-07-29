@@ -55,6 +55,13 @@ body {
     margin-bottom: 50px;
     padding: 32px;
   }
+
+  @media (max-width: 390px) {
+    font-size: 34px;
+    margin-top: 96px;
+    margin-bottom: 50px;
+    padding: 26px;
+  }
   @media (max-width: $width-xs) {
     font-size: 32px;
     margin-top: 90px;
