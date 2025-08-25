@@ -22,28 +22,27 @@ function App() {
         {/* <br /> I design, code and write for data visualization ✨ */}
         {/* <br /> I love data visualization ✨ */}
         <br /> I{" "}
-        <RoughNotation
+        {/* <RoughNotation
           type="underline"
           color="rgba(0, 0, 255, 0.4)"
           strokeWidth="3.2"
           show={true}
           animationDuration="1200"
           padding="130"
-        >
-          design and code
-        </RoughNotation>{" "}
+        > */}
+        design and code
+        {/* </RoughNotation>{" "} */}
         with{" "}
         <div class="intro-data">
-          <RoughNotation
+          {/* <RoughNotation
             type={"highlight"}
             color="rgba(0, 0, 255, .48)"
-            // iterations="2"
             strokeWidth="3.2"
             show={true}
             animationDuration="1200"
-          >
-            data
-          </RoughNotation>
+          > */}
+          data
+          {/* </RoughNotation> */}
         </div>
       </div>
 
