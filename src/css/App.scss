@@ -57,35 +57,23 @@ body {
     // font-size: 10vw;
     margin-top: 140px;
     margin-bottom: 90px;
-    line-height: 1.32em;
+    line-height: 1.3em;
     letter-spacing: -1px;
     // padding: 30px;
   }
   @media (max-width: $width-sm) {
     // font-size: 36px;
-    font-size: 48px;
+    font-size: 50px;
     margin-top: 110px;
     margin-bottom: 50px;
     padding: 28px;
   }
 
-  @media (max-width: 390px) {
-    // font-size: 34px;
+  @media (max-width: 375px) {
     font-size: 47px;
     // margin-top: 100px;
     margin-bottom: 50px;
     padding: 28px;
-  }
-  @media (max-width: $width-xs) {
-    // font-size: 32px;
-    margin-top: 95px;
-    margin-bottom: 50px;
-    padding: 22px;
-  }
-  @media (max-width: $width-xxs) {
-    // font-size: 28px;
-    margin-top: 70px;
-    margin-bottom: 30px;
   }
 }
 
