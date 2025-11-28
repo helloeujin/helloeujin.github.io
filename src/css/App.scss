@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import "./Consts.scss";
+
+body {
+  /**/
+  // font-family: "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;
+
+  margin: 0px;
+
+  // @extend .selection-color-update;
+}
+
+.intro-text {
+  // font-family: "Source Serif Pro", serif;
+  max-width: $pg-lg;
+  margin-left: auto;
+  margin-right: auto;
+
+  text-wrap: pretty;
+  position: relative;
+  // font-size: 62px;
+  font-size: clamp(47px, 6.8vw, 78px);
+  font-weight: 300;
+  // max-width: $pg-lg;
+  // max-width: 760px;
+  // max-width: 860px;
+  margin-top: 160px; // 185
+  // text-transform: uppercase;
+  margin-bottom: 135px;
+  letter-spacing: -2.5px;
+  text-align: left;
+
+  // background-color: red;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  color: #222;
+  line-height: 1.3em;
+
+  .name {
+    // font-weight: 500;
+    // color: rgba(0, 0, 255, 0.98);
+    font-weight: 700;
+    // color: black;
+  }
+
+  @media (max-width: $width-lg) {
+    // font-size: 52px;
+    font-size: 7vw;
+    margin-bottom: 110px;
+    letter-spacing: -2px;
+  }
+  @media (max-width: $width-md) {
+    font-size: 56px;
+    // font-size: 10vw;
+    margin-top: 140px;
+    margin-bottom: 90px;
+    line-height: 1.3em;
+    letter-spacing: -1px;
+    // padding: 30px;
+  }
+  @media (max-width: $width-sm) {
+    // font-size: 36px;
+    font-size: 50px;
+    margin-top: 110px;
+    margin-bottom: 50px;
+    padding: 28px;
+  }
+
+  @media (max-width: 375px) {
+    font-size: 47px;
+    // margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 28px;
+  }
+}
+
+/* FOOTER */
+.footer {
+  position: relative;
+  width: 100%;
+  left: 0px;
+  height: 160px;
+  bottom: 0px;
+  margin: 0px;
+  margin-top: 100px;
+  // background-color: #f7f7f7;
+  padding-top: 10px;
+  // border-top: 1px solid #eee;
+}
+.footer > .footer-social {
+  // max-width: 420px;
+  max-width: 300px;
+  width: 80%;
+  // background-color: red;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  @media (max-width: $width-sm) {
+    // max-width: 240px;
+  }
+  @media (max-width: $width-xxs) {
+    // max-width: 220px;
+  }
+}
+.footer-social > .social {
+  font-weight: 500;
+  font-size: 15px;
+  border-bottom: 2px solid #333;
+  cursor: pointer;
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  @media (max-width: $width-sm) {
+    font-size: 14px;
+  }
+  @media (max-width: $width-xxs) {
+    font-size: 13px;
+  }
+}
+.footer-social > .social:hover {
+  color: blue;
+  border-color: blue;
+
+  a {
+    text-decoration: none;
+    color: blue;
+  }
+}
+
+.intro-data {
+  display: inline;
+  // color: white;
+}
+
+li a {
+  // color: blue;
+}

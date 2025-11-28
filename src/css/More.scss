@@ -1,0 +1,120 @@
+@import "./Consts.scss";
+
+.more {
+  // max-width: $width-sm;
+  max-width: $pg-md;
+  margin: 12px auto 12px auto;
+  padding: 20px;
+}
+
+.moreHed {
+  font-size: 36px;
+  letter-spacing: -0.3px;
+  cursor: pointer;
+  @extend .selection-disabled;
+
+  @media (max-width: $width-sm) {
+    font-size: 34px;
+  }
+}
+.moreHed:hover {
+  color: blue;
+  .arrow {
+    // margin-left: 10px;
+    transition: all 0.1s;
+  }
+}
+.arrow {
+  transform: rotate(0deg);
+  display: inline-block;
+  transition: transform 0.3s;
+}
+.rotateArrow {
+  transform: rotate(90deg);
+}
+
+.moreDesc {
+  font-size: 15px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  line-height: 1.4em;
+
+  height: 0px;
+  overflow: hidden;
+  vertical-align: top;
+  transition: all 0.3s;
+  opacity: 0;
+
+  @media (max-width: $width-sm) {
+    font-size: 14px;
+  }
+
+  .tags {
+    font-size: 14px;
+    padding: 1px 8px;
+    border: 1px solid #333;
+    border-radius: 12px;
+    margin-right: 4px;
+    margin-left: 4px;
+    @media (max-width: $width-sm) {
+      font-size: 13px;
+    }
+  }
+  .honor {
+    margin-bottom: 18px;
+  }
+  .date {
+    font-weight: bold;
+    font-size: 13px;
+    margin-right: 12px;
+  }
+  .story {
+    color: #aaa;
+  }
+}
+
+.moreDescMore {
+  line-height: 1.76em;
+}
+
+.showSkills {
+  height: 250px;
+  opacity: 1;
+  @media (max-width: $width-sm) {
+    height: 280px;
+  }
+}
+
+.showHonors {
+  height: 2150px;
+  opacity: 1;
+  // @media (max-width: $width-sm) {
+  //   height: 1820px;
+  // }
+  // @media (max-width: 420px) {
+  //   height: 1930px;
+  // }
+  // @media (max-width: 375px) {
+  //   height: 1960px;
+  // }
+  // @media (max-width: 360px) {
+  //   height: 2000px;
+  // }
+  // @media (max-width: 280px) {
+  //   height: 2500px;
+  // }
+}
+
+.showTeaching {
+  height: 1260px;
+  opacity: 1;
+  @media (max-width: $width-sm) {
+    height: 1100px;
+  }
+  @media (max-width: 375px) {
+    height: 1200px;
+  }
+  @media (max-width: $width-xxs) {
+    height: 1230px;
+  }
+}
