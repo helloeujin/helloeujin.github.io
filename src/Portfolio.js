@@ -35,12 +35,15 @@ const Portfolio = () => {
         return (
           <div className="project" key={"project" + index}>
             <div className="project-content">
-              <div className="tag">{project.tag}</div>
+              <div className="tag">
+                <span className="tag-text">{project.tag}</span>
+              </div>
 
               {/* HED */}
               <div className="hed" onClick={handleClick(index)}>
                 <span>
-                  {project.hed}{" "}
+                  {project.hed}
+                  {"  "}
                   <div
                     className={
                       clickedIndex[index] ? "rotateArrow arrow" : "arrow"

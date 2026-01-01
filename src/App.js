@@ -20,7 +20,8 @@ function App() {
       <div className="intro-text">
         {/* Hello! I'm <span class="name">Youjin Shin</span>.
         <br /> I design and code with data. */}
-        <span class="name">Youjin Shin</span>, <br />I design and code with data
+        <span class="name">Youjin Shin</span> <br />I design, code and tell
+        stories with data
       </div>
 
       <Portfolio />

@@ -4,10 +4,8 @@
 body {
   /**/
   // font-family: "Roboto", sans-serif;
-  font-family: "Inter", sans-serif;
-
+  font-family: "Google Sans", Helvetica, Arial, sans-serif;
   margin: 0px;
-
   // @extend .selection-color-update;
 }
 
@@ -19,58 +17,51 @@ body {
 
   text-wrap: pretty;
   position: relative;
-  // font-size: 62px;
-  font-size: clamp(47px, 6.8vw, 78px);
+  font-size: 42px;
+  // font-size: clamp(47px, 6.8vw, 78px);
   font-weight: 300;
-  // max-width: $pg-lg;
-  // max-width: 760px;
-  // max-width: 860px;
-  margin-top: 160px; // 185
-  // text-transform: uppercase;
-  margin-bottom: 135px;
-  letter-spacing: -2.5px;
-  text-align: left;
-
-  // background-color: red;
+  margin-top: 120px; // 185
+  margin-bottom: 60px;
+  text-align: center;
 
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
-  color: #222;
+  color: #111;
   line-height: 1.3em;
 
   .name {
     // font-weight: 500;
     // color: rgba(0, 0, 255, 0.98);
-    font-weight: 700;
+    // font-weight: 700;
     // color: black;
+    color: #a8a8a8;
   }
 
   @media (max-width: $width-lg) {
     // font-size: 52px;
-    font-size: 7vw;
+    // font-size: 7vw;
     margin-bottom: 110px;
-    letter-spacing: -2px;
   }
   @media (max-width: $width-md) {
-    font-size: 56px;
+    // font-size: 56px;
     // font-size: 10vw;
     margin-top: 140px;
     margin-bottom: 90px;
     line-height: 1.3em;
-    letter-spacing: -1px;
+
     // padding: 30px;
   }
   @media (max-width: $width-sm) {
     // font-size: 36px;
-    font-size: 50px;
+    // font-size: 50px;
     margin-top: 110px;
     margin-bottom: 50px;
     padding: 28px;
   }
 
   @media (max-width: 375px) {
-    font-size: 47px;
+    // font-size: 47px;
     // margin-top: 100px;
     margin-bottom: 50px;
     padding: 28px;
