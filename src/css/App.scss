@@ -44,7 +44,7 @@ body {
   }
   @media (max-width: $width-md) {
     max-width: $pg-md;
-    font-size: 40px;
+    font-size: 39px;
     // font-size: 10vw;
     margin-top: 100px; // 185
     margin-bottom: 40px;
@@ -56,8 +56,10 @@ body {
     // padding: 30px;
   }
   @media (max-width: $width-sm) {
-    font-size: 38px;
+    font-size: 36px;
     padding: 28px;
+    margin-top: 90px; // 185
+    margin-bottom: 30px;
   }
 
   @media (max-width: 375px) {
