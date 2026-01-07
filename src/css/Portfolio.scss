@@ -1,6 +1,7 @@
 @import "./Consts.scss";
 
 $line-gap: 18px;
+$line-gap-s: 12px;
 
 .portfolio {
   max-width: $pg-xlg;
@@ -26,7 +27,8 @@ $line-gap: 18px;
     height: 100%;
 
     @media (max-width: $width-md) {
-      margin-left: 12px;
+      width: calc(100% - 2 * $line-gap-s);
+      margin-left: $line-gap-s;
     }
   }
   .project-content .tag {
