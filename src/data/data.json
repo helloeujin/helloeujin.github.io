@@ -1,5 +1,12 @@
 [
   {
+    "hed": "What was your last cup of coffee?",
+    "desc": "<ul><li>Select your brewer, taste notes, and mood, and see your coffee transform into a visualization</li><li> Tools: Svelte, Three.js</li> <li> <a href='https://str.sg/viz-coffee' target='_blank'>Visit the link</a> </li> </ul>",
+    "tag": "Data visualization",
+    "img": "coffee.jpeg",
+    "url": "https://str.sg/viz-lostgames"
+  },
+  {
     "hed": "Lost Games",
     "desc": "<ul><li>Recreating Singapore's traditional games digitally </li><li> Tools: Svelte, Three.js</li> <li> <a href='https://str.sg/viz-lostgames' target='_blank'>Visit the link</a> </li> </ul>",
     "tag": "Game",
