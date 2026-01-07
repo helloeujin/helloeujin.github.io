@@ -1,6 +1,6 @@
 @import "./Consts.scss";
 
-$line-gap: 12px;
+$line-gap: 18px;
 
 .portfolio {
   max-width: $pg-xlg;
@@ -21,6 +21,7 @@ $line-gap: 12px;
 
   .project-content {
     width: calc(100% - 2 * $line-gap);
+    // width: 100%;
     margin-left: $line-gap;
     height: 100%;
   }
@@ -72,6 +73,7 @@ $line-gap: 12px;
     margin-top: 20px;
     width: 100%;
     cursor: pointer;
+    border-radius: 12px;
   }
   .project-content img:hover {
     width: calc(100% - 4px);

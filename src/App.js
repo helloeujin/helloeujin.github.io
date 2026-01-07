@@ -18,10 +18,10 @@ function App() {
   return (
     <>
       <div className="intro-text">
-        {/* Hello! I'm <span class="name">Youjin Shin</span>.
-        <br /> I design and code with data. */}
-        <span class="name">Youjin Shin</span> <br />I design, code and tell
-        stories with data
+        <span class="name">Hello! I'm Youjin Shin.</span>
+        <br /> I design, code and tell stories with data.
+        {/* <span class="name">Youjin Shin</span> <br />I design, code and tell
+        stories with data */}
       </div>
 
       <Portfolio />
