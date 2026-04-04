@@ -1,5 +1,12 @@
 [
   {
+    "hed": "Pokemon tree of life",
+    "desc": "<ul><li>Visualizing the evolutionary relationships of all Pokemon species in a radial tree </li><li> Tools: D3.js</li> <li> <a href='https://www.straitstimes.com/multimedia/graphics/2026/02/pokemon-tree-of-life/index.html' target='_blank'>Visit the link</a> </li> </ul>",
+    "tag": "Data visualization",
+    "img": "pokemon.png",
+    "url": "https://www.straitstimes.com/multimedia/graphics/2026/02/pokemon-tree-of-life/index.html"
+  },
+  {
     "hed": "What was your last cup of coffee?",
     "desc": "<ul><li>Select your brewer, taste notes, and mood, and see your coffee transform into a visualization</li><li> Tools: Svelte, Three.js</li> <li> <a href='https://str.sg/viz-coffee' target='_blank'>Visit the link</a> </li> </ul>",
     "tag": "Data visualization",
@@ -11,7 +18,8 @@
     "desc": "<ul><li>Recreating Singapore's traditional games digitally </li><li> Tools: Svelte, Three.js</li> <li> <a href='https://str.sg/viz-lostgames' target='_blank'>Visit the link</a> </li> </ul>",
     "tag": "Game",
     "img": "lostgames.jpeg",
-    "url": "https://str.sg/viz-lostgames"
+    "url": "https://str.sg/viz-lostgames",
+    "hidden": true
   },
   {
     "hed": "Why handwriting matters",

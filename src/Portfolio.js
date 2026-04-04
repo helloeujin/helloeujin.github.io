@@ -31,7 +31,7 @@ const Portfolio = () => {
 
   return (
     <div className="portfolio">
-      {data.map((project, index) => {
+      {data.filter((project) => !project.hidden).map((project, index) => {
         return (
           <div className="project" key={"project" + index}>
             <div className="project-content">

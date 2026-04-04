@@ -18,8 +18,8 @@ function App() {
   return (
     <>
       <div className="intro-text">
-        <span class="name">Hello! I'm Youjin Shin.</span>
-        <br /> I design, code and tell stories with data.
+        <span class="name">Hello! I'm Youjin Shin.</span>{" "}
+        I design, code and tell stories with data.
         {/* <span class="name">Youjin Shin</span> <br />I design, code and tell
         stories with data */}
       </div>
