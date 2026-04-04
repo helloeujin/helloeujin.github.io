@@ -17,9 +17,9 @@ body {
   margin-left: auto;
   margin-right: auto;
 
-  text-wrap: pretty;
+  text-wrap: balance;
   position: relative;
-  font-size: 42px;
+  font-size: 43px;
   // font-size: clamp(47px, 6.8vw, 78px);
   font-weight: 300;
   margin-top: 120px; // 185
@@ -44,7 +44,7 @@ body {
   }
   @media (max-width: $width-md) {
     max-width: $pg-md;
-    font-size: 38px;
+    font-size: 39px;
     // font-size: 10vw;
     margin-top: 100px; // 185
     margin-bottom: 40px;
@@ -56,14 +56,14 @@ body {
     // padding: 30px;
   }
   @media (max-width: $width-sm) {
-    font-size: 34px;
+    font-size: 35px;
     padding: 28px;
     margin-top: 90px; // 185
     margin-bottom: 30px;
   }
 
   @media (max-width: 375px) {
-    font-size: 34px;
+    font-size: 35px;
     padding: 28px;
   }
 }
