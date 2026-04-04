@@ -18,7 +18,8 @@
     "desc": "<ul><li>Recreating Singapore's traditional games digitally </li><li> Tools: Svelte, Three.js</li> <li> <a href='https://str.sg/viz-lostgames' target='_blank'>Visit the link</a> </li> </ul>",
     "tag": "Game",
     "img": "lostgames.jpeg",
-    "url": "https://str.sg/viz-lostgames"
+    "url": "https://str.sg/viz-lostgames",
+    "hidden": true
   },
   {
     "hed": "Why handwriting matters",
