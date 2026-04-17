@@ -1,5 +1,12 @@
 [
   {
+    "hed": "AI chatbots know more about you than you realise",
+    "desc": "<ul><li>An interactive experience revealing how AI chatbots profile you — your job, age, location and more — just from everyday questions</li><li> Tools: Svelte, D3.js</li> <li> <a href='https://www.straitstimes.com/multimedia/graphics/2026/04/ai-chatbots-privacy-risk/index.html' target='_blank'>Visit the link</a> </li> </ul>",
+    "tag": "Data storytelling",
+    "img": "ai.png",
+    "url": "https://www.straitstimes.com/multimedia/graphics/2026/04/ai-chatbots-privacy-risk/index.html"
+  },
+  {
     "hed": "Pokemon Tree of Life",
     "desc": "<ul><li>Visualizing over 1,350 Pokémon in a Tree of Life </li><li> Tools: Svelte, D3.js</li> <li> <a href='https://str.sg/viz-poke30' target='_blank'>Visit the link</a> </li> </ul>",
     "tag": "Data visualization",
