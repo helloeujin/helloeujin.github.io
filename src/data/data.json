@@ -1,7 +1,7 @@
 [
   {
     "hed": "AI chatbots know more about you than you realise",
-    "desc": "<ul><li>An interactive experience revealing how AI chatbots profile you — your job, age, location and more — just from everyday questions</li><li> Tools: Svelte, Javascript</li> <li> <a href='https://www.straitstimes.com/multimedia/graphics/2026/04/ai-chatbots-privacy-risk/index.html' target='_blank'>Visit the link</a> </li> </ul>",
+    "desc": "<ul><li>An interactive experience revealing how AI chatbots profile you just from everyday questions</li><li> Tools: Svelte, Javascript</li> <li> <a href='https://www.straitstimes.com/multimedia/graphics/2026/04/ai-chatbots-privacy-risk/index.html' target='_blank'>Visit the link</a> </li> </ul>",
     "tag": "Data storytelling",
     "img": "ai.png",
     "url": "https://www.straitstimes.com/multimedia/graphics/2026/04/ai-chatbots-privacy-risk/index.html"
@@ -21,8 +21,15 @@
     "url": "https://www.straitstimes.com/multimedia/graphics/2025/12/singapore-coffee/index.html"
   },
   {
+    "hed": "Lost games",
+    "desc": "<ul><li>Recreating Singapore's traditional games digitally</li><li> Tools: Svelte, Three.js</li> <li> <a href='https://str.sg/viz-lostgames' target='_blank'>Visit the link</a> </li> </ul>",
+    "tag": "Gamen",
+    "img": "lostgames2.jpeg",
+    "url": "https://www.straitstimes.com/multimedia/graphics/2025/08/singapore-traditional-games/index.html"
+  },
+  {
     "hed": "Why handwriting matters",
-    "desc": "<ul><li>Analyzed handwriting of 90 people aged 6 to 69 in Singapore, using machine learning to identify three distinct writing styles</li><li> Tools: Svelte, D3.js</li> <li> <a href='https://str.sg/viz-handwriting' target='_blank'>Visit the link</a> </li> </ul>",
+    "desc": "<ul><li>Analyzed handwriting in Singapore, using ML to identify three distinct writing styles</li><li> Tools: Svelte, D3.js</li> <li> <a href='https://str.sg/viz-handwriting' target='_blank'>Visit the link</a> </li> </ul>",
     "tag": "Data visualization",
     "img": "handwriting.png",
     "url": "https://www.straitstimes.com/multimedia/graphics/2025/06/why-handwriting-matters/index.html"
