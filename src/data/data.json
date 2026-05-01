@@ -64,7 +64,7 @@
   },
   {
     "hed": "How epidemics like covid-19 end (and how to end them faster)",
-    "desc": "<ul><li>Responsibilities: Reporting, design and development </li><li> Tools: React, D3.js (simulation)</li> <li> <a href='https://www.washingtonpost.com/graphics/2020/health/coronavirus-how-epidemics-spread-and-end/' target='_blank'>Visit the link</a> </li></ul>",
+    "desc": "<ul><li>Simulating the covid epidemic </li><li> Tools: React, D3.js (simulation)</li> <li> <a href='https://www.washingtonpost.com/graphics/2020/health/coronavirus-how-epidemics-spread-and-end/' target='_blank'>Visit the link</a> </li></ul>",
     "tag": "Data visualization",
     "img": "simulation.jpeg",
     "url": "https://www.washingtonpost.com/graphics/2020/health/coronavirus-how-epidemics-spread-and-end/?itid=ap_youjinshin"
