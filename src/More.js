@@ -68,18 +68,19 @@ const More = () => {
         </span>
       </div>
       <div className={clickedIndex[1] ? "moreDesc  showHonors" : "moreDesc "}>
-        {" "}
-        {honorsData.map((honor, index) => {
-          return (
-            <div className="honor" key={"honor" + index}>
-              <span className="date">{honor.date} </span>
-              {honor.org}, {honor.award}
-              {honor.story ? (
-                <span className="story">, {honor.story}</span>
-              ) : null}
-            </div>
-          );
-        })}
+        <div className="descHed">
+          {honorsData.map((honor, index) => {
+            return (
+              <div className="honor" key={"honor" + index}>
+                <span className="date">{honor.date} </span>
+                {honor.org}, {honor.award}
+                {honor.story ? (
+                  <span className="story">, {honor.story}</span>
+                ) : null}
+              </div>
+            );
+          })}
+        </div>
       </div>
 
       {/* TALKS */}
@@ -90,18 +91,19 @@ const More = () => {
         </span>
       </div>
       <div className={clickedIndex[2] ? "moreDesc  showTeaching" : "moreDesc "}>
-        {" "}
-        {teachingData.map((teaching, index) => {
-          return (
-            <div className="honor" key={"teaching" + index}>
-              <span className="date">{teaching.date} </span>
-              {teaching.school}
-              {teaching.desc ? (
-                <span className="story">, {teaching.desc}</span>
-              ) : null}
-            </div>
-          );
-        })}
+        <div className="descHed">
+          {teachingData.map((teaching, index) => {
+            return (
+              <div className="honor" key={"teaching" + index}>
+                <span className="date">{teaching.date} </span>
+                {teaching.school}
+                {teaching.desc ? (
+                  <span className="story">, {teaching.desc}</span>
+                ) : null}
+              </div>
+            );
+          })}
+        </div>
       </div>
     </div>
   );

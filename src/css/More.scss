@@ -39,11 +39,18 @@
   margin-bottom: 0px;
   line-height: 1.4em;
 
-  height: 0px;
-  overflow: hidden;
+  display: grid;
+  grid-template-rows: 0fr;
   vertical-align: top;
-  transition: all 0.3s;
+  transition:
+    grid-template-rows 0.3s,
+    opacity 0.3s;
   opacity: 0;
+
+  > .descHed {
+    overflow: hidden;
+    min-height: 0;
+  }
 
   @media (max-width: $width-sm) {
     font-size: 14px;
@@ -77,44 +84,17 @@
   line-height: 1.76em;
 }
 
-.showSkills {
-  height: 250px;
-  opacity: 1;
-  @media (max-width: $width-sm) {
-    height: 280px;
-  }
-}
-
-.showHonors {
-  height: 2150px;
-  opacity: 1;
-  // @media (max-width: $width-sm) {
-  //   height: 1820px;
-  // }
-  // @media (max-width: 420px) {
-  //   height: 1930px;
-  // }
-  // @media (max-width: 375px) {
-  //   height: 1960px;
-  // }
-  // @media (max-width: 360px) {
-  //   height: 2000px;
-  // }
-  // @media (max-width: 280px) {
-  //   height: 2500px;
-  // }
-}
-
+.showSkills,
+.showHonors,
 .showTeaching {
-  height: 1260px;
+  grid-template-rows: 1fr;
   opacity: 1;
-  @media (max-width: $width-sm) {
-    height: 1100px;
-  }
-  @media (max-width: 375px) {
-    height: 1200px;
-  }
-  @media (max-width: $width-xxs) {
-    height: 1230px;
-  }
+}
+
+.showHonors > .descHed {
+  padding-bottom: 60px;
+}
+
+.showSkills > .descHed {
+  padding-bottom: 60px;
 }
