@@ -62,7 +62,7 @@ const More = () => {
 
       {/* HONORS */}
       <div className="moreHed" onClick={handleClick(1)}>
-        Honors{" "}
+        Selected Awards{" "}
         <span className={clickedIndex[1] ? "rotateArrow arrow" : "arrow"}>
           &#x2192;
         </span>

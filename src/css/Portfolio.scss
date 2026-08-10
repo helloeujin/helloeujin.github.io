@@ -63,7 +63,8 @@ $line-gap-s: 12px;
       font-size: 18px;
     }
   }
-  .project-content .hed:hover {
+  .project-content .hed:hover,
+  .project-content .hed.activeHed {
     span {
       color: $highlight-color;
       transition: all 100ms;
@@ -79,11 +80,12 @@ $line-gap-s: 12px;
     width: 100%;
     cursor: pointer;
     border-radius: 12px;
+    border: 2px solid #fff;
   }
   .project-content img:hover {
-    width: calc(100% - 4px);
+    // width: calc(100% - 4px);
     border: 2px solid $highlight-color;
-    transition: all 0.1s;
+    transition: all 0.25s;
   }
 
   .desc {
@@ -92,8 +94,9 @@ $line-gap-s: 12px;
     display: block;
     height: 0px;
     transition: height 300ms;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 14.5px;
+    line-height: 1.45em;
+    // color: #333;
 
     .bolden {
       font-weight: bold;

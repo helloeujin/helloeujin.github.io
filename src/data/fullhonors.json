@@ -91,7 +91,13 @@
     "desc": "Information Graphics: International",
     "story": "Columbus monuments"
   },
-
+  {
+    "date": "03.2022",
+    "org": "Society for News Design",
+    "award": "Award of Excellence",
+    "desc": "Information Graphics: International",
+    "story": "Women in pandemic"
+  },
   {
     "date": "12.2021",
     "org": "Bloomberg Businessweek",
@@ -207,6 +213,13 @@
   {
     "date": "04.2018",
     "org": "Data Journalism Awards",
+    "award": "Shortlisted for Data journalism website of the year",
+    "desc": "",
+    "story": "I-95"
+  },
+  {
+    "date": "04.2018",
+    "org": "Data Journalism Awards",
     "award": "Data visualization of the year",
     "desc": "",
     "story": "Coming to America"
@@ -239,7 +252,13 @@
     "desc": "Breaking/Daily News: Single-subject project",
     "story": "Las Vegas shooting"
   },
-
+  {
+    "date": "02.2015",
+    "org": "Information is Beautiful Awards",
+    "award": "Shortlisted for Food Poisoning Challenge",
+    "desc": "",
+    "story": ""
+  },
   {
     "date": "04.2014",
     "org": "MIT Ideas Global Challenge",

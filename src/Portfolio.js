@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./css/Portfolio.scss";
 
 const Portfolio = () => {
@@ -18,16 +18,16 @@ const Portfolio = () => {
 
   const data = require("./data/data.json");
 
-  // useEffect(() => {
-  //   const timer = setTimeout(() => {
-  //     setClickedIndex((state) => ({
-  //       ...state,
-  //       0: !state[0],
-  //     }));
-  //   }, 2400);
+  useEffect(() => {
+    const openLatestProject = () => {
+      setClickedIndex((state) => ({ ...state, 0: true }));
+    };
 
-  //   return () => clearTimeout(timer); // 컴포넌트 언마운트 시 타이머 정리
-  // }, []);
+    window.addEventListener("portfolio:open-latest", openLatestProject);
+    return () => {
+      window.removeEventListener("portfolio:open-latest", openLatestProject);
+    };
+  }, []);
 
   return (
     <div className="portfolio">
@@ -40,7 +40,10 @@ const Portfolio = () => {
               </div>
 
               {/* HED */}
-              <div className="hed" onClick={handleClick(index)}>
+              <div
+                className={clickedIndex[index] ? "activeHed hed" : "hed"}
+                onClick={handleClick(index)}
+              >
                 <span>
                   {project.hed}
                   {"  "}
