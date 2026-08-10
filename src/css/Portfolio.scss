@@ -91,12 +91,17 @@ $line-gap-s: 12px;
   .desc {
     opacity: 0;
     overflow: hidden;
-    display: block;
-    height: 0px;
-    transition: height 300ms;
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 300ms, opacity 300ms, padding-top 300ms;
     font-size: 14.5px;
     line-height: 1.45em;
     // color: #333;
+
+    > div {
+      min-height: 0;
+      overflow: hidden;
+    }
 
     .bolden {
       font-weight: bold;
@@ -112,7 +117,7 @@ $line-gap-s: 12px;
     }
   }
   .showDesc {
-    height: 110px;
+    grid-template-rows: 1fr;
     padding-top: 16px;
     opacity: 1;
   }
