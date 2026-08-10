@@ -20,8 +20,7 @@ function App() {
       <div className="intro-text">
         <span class="name">Hello! I'm Youjin Shin.</span>
         <br /> I design, code and tell stories with data.
-        {/* <span class="name">Youjin Shin</span> <br />I design, code and tell
-        stories with data */}
+        {/* <br /> I turn data into interactive stories. */}
       </div>
 
       <Portfolio />
