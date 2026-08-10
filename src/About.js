@@ -46,7 +46,7 @@ const About = () => {
         <br />
         <br />
         You can reach me by email at{" "}
-        <span style={{ fontStyle: "italic", color: "blue" }}>
+        <span className="highlight-text" style={{ fontStyle: "italic" }}>
           hello@visual-plot.com
         </span>
         .

@@ -18,7 +18,7 @@
   }
 }
 .moreHed:hover {
-  color: blue;
+  color: $highlight-color;
   .arrow {
     // margin-left: 10px;
     transition: all 0.1s;

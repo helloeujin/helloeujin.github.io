@@ -10,7 +10,10 @@ $pg-xlg: 1340px;
 // $pg-xlg: 1300px;
 $pg-lg: 670px;
 // $pg-md: 520px;
-$pg-md: 530px;
+$pg-md: 580px;
+
+// Shared highlight color
+$highlight-color: #1a19fd;
 
 .title {
   max-width: $pg-lg;
@@ -36,11 +39,11 @@ $pg-md: 530px;
 .selection-color-update {
   ::-moz-selection {
     /* Code for Firefox */
-    background: blue;
+    background: $highlight-color;
     color: white;
   }
   ::selection {
-    background: blue;
+    background: $highlight-color;
     color: white;
   }
 }

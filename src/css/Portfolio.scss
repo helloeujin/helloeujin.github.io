@@ -65,7 +65,7 @@ $line-gap-s: 12px;
   }
   .project-content .hed:hover {
     span {
-      color: blue;
+      color: $highlight-color;
       transition: all 100ms;
 
       .arrow {
@@ -82,7 +82,7 @@ $line-gap-s: 12px;
   }
   .project-content img:hover {
     width: calc(100% - 4px);
-    border: 2px solid blue;
+    border: 2px solid $highlight-color;
     transition: all 0.1s;
   }
 
@@ -97,6 +97,12 @@ $line-gap-s: 12px;
 
     .bolden {
       font-weight: bold;
+    }
+    a {
+      color: #111;
+    }
+    a:hover {
+      color: $highlight-color;
     }
     @media (max-width: $width-lg) {
       line-height: 20px;

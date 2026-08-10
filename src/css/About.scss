@@ -7,26 +7,32 @@
   margin-top: 130px;
   margin-bottom: 85px;
 
-  font-size: 19px;
-  line-height: 31px;
+  font-size: 21px;
+  // line-height: 31px;
+  line-height: 1.6em;
   padding: 20px;
+  color: #111;
 
   @media (max-width: $width-sm) {
     line-height: 27px;
-    font-size: 17px;
+    font-size: 18px;
   }
   @media (max-width: $width-xs) {
-    font-size: 16px;
+    font-size: 17px;
   }
 
   a {
     // color: blue;
     font-weight: 600;
-    color: black;
+    color: #111;
     text-decoration: none;
     // border-bottom: 2px solid black;
   }
   a:hover {
-    color: blue;
+    color: $highlight-color;
+  }
+
+  .highlight-text {
+    color: $highlight-color;
   }
 }
