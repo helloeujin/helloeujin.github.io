@@ -21,6 +21,13 @@
     "url": "https://www.straitstimes.com/multimedia/graphics/2026/02/pokemon-tree-of-life/index.html"
   },
   {
+    "hed": "What was your last cup of coffee?",
+    "desc": "<ul><li>Select your brewer, taste notes, and mood, and see your coffee transform into a visualization</li><li> Tools: Svelte, Three.js</li> <li> <a href='https://str.sg/viz-coffee' target='_blank'>Visit the link</a> </li> </ul>",
+    "tag": "Data visualization",
+    "img": "coffee.jpeg",
+    "url": "https://www.straitstimes.com/multimedia/graphics/2025/12/singapore-coffee/index.html"
+  },
+  {
     "hed": "Lost games",
     "desc": "<ul><li>Recreating Singapore's traditional games digitally</li><li> Tools: Svelte, Three.js</li> <li> <a href='https://str.sg/viz-lostgames' target='_blank'>Visit the link</a> </li> </ul>",
     "tag": "Gamen",
@@ -75,6 +82,13 @@
     "tag": "Game",
     "img": "billionaire.jpeg",
     "url": "https://www.washingtonpost.com/graphics/2020/politics/wealth-comparison/"
+  },
+  {
+    "hed": "Why is K-pop so popular",
+    "desc": "<ul><li>Responsibilities: Reporting, design and development </li><li> Tools: React, Three.js, Youtube API, Spotify API, Figma</li> <li> <a href='https://www.washingtonpost.com/arts-entertainment/interactive/2021/kpop-bts-youtube-twitter-blackpink/' target='_blank'>Visit the link</a> </li> </ul>",
+    "tag": "3D storytelling",
+    "img": "kpop.jpeg",
+    "url": "https://www.washingtonpost.com/arts-entertainment/interactive/2021/kpop-bts-youtube-twitter-blackpink/"
   },
   {
     "hed": "Coronavirus trackers",
